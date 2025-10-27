@@ -1,0 +1,199 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+ .site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+
+}
+.site-header .logo img {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 120px;
+  height: auto;
+  display: block;
+  }
+
+.site-header .container {
+  display: flex;             /* deixa logo e menu na mesma linha */
+  align-items: center;       /* centraliza verticalmente */
+  justify-content: space-between; /* logo à esquerda, menu à direita */
+  }
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+
+}
+.main-nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.main-nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.btn-whatsapp {
+  float: right;
+  background: #25D366; 
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.hero {
+  background:url(b368c1c8-71dc-44f7-8da6-f36800491ec0.jpeg) center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 120px 0;
+  border: white 3px solid;
+  border-radius: 10px;
+}
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.btn-primary {
+  display: inline-block;
+  background: #c0392b; 
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.horarios {
+  background: #f9f9f9;
+  padding: 60px 0;
+  text-align: center;
+}
+.horarios h2 {
+  text-align: center;
+}
+.horarios img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  width: 500px;
+  height: auto;
+  
+}
+.programas {
+   padding: 60px 0;
+  max-width: 1100px;
+  margin: 0 auto;   
+}
+
+.programas h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.programas p {
+  text-align: center;
+}
+
+/* container com imagem e texto */
+.aulas {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;       /* opcional: deixa mais suave */
+}
+
+/* imagem */
+.aulas img {
+  width: 400px;                 /* ajusta o tamanho da imagem */
+  height: auto;                 /* mantém proporção */
+  border-radius: 10px;          /* bordas arredondadas */
+}
+
+/* texto */
+.texto-aulas {
+  flex: 1;                      /* ocupa o resto do espaço */
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: left;
+}
+
+.quem-somos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 0;
+}
+.quem-somos .img-sobre,
+.quem-somos .texto-sobre {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+.contato {
+  background: #f9f9f9;
+  padding: 60px 0;
+}
+.contato form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contato form input,
+.contato form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contato form button {
+  background: #c0392b;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.site-footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+.contato {
+  display: flex;                 /* coloca tudo na mesma linha */
+  align-items: center;           /* alinha no meio verticalmente */           
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+.info-contato {
+  flex: 1;                       /* ocupa metade */
+  max-width: 400px;              /* limite de largura */
+}
+
+
+.mapa iframe {
+  width: 500px;                  /* tamanho fixo do mapa */
+  height: 300px;
+  border: 0;
+  border-radius: 10px;
+}
